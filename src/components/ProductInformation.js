@@ -1,26 +1,10 @@
 import * as React from 'react';
 import { View, Text, StyleSheet, Image } from 'react-native';
-import { headphone, keyboard, monitor, mouse, noImageLoad, urlHeadphone, urlKeyboard, urlMonitor, urlMouse } from '../utils/constants';
 
 const ProductInformation = ({route}) => {
 
-    const { price, name, brand, about} = route.params;
+    const { price, name, brand, about, urlImage} = route.params;
 
-    const urlImage = () => {
-        console.log(name)
-        switch (name) {
-            case keyboard:
-                return urlKeyboard
-            case headphone:
-                return urlHeadphone
-            case monitor:
-                return urlMonitor
-            case mouse:
-                return urlMouse
-            default:
-                return noImageLoad
-        }
-    }
     return (
         <View style={{flex: 1}}>
             <View style={styles.container}>
@@ -29,7 +13,7 @@ const ProductInformation = ({route}) => {
             <Image
                 style={styles.image}
                 source={{
-                    uri: urlImage()
+                    uri: urlImage
                 }}
             />
             <View style={styles.about}>

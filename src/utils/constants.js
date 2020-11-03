@@ -6,6 +6,7 @@ export const urlMouse = "https://images-na.ssl-images-amazon.com/images/I/61hzuo
 export const urlMonitor = "https://images-na.ssl-images-amazon.com/images/I/51Nkh6sTR7L._AC_SX679_.jpg";
 export const urlHeadphone = "https://images-na.ssl-images-amazon.com/images/I/61PEFhfoqeL._AC_SX679_.jpg";
 export const urlKeyboard = "https://images-na.ssl-images-amazon.com/images/I/71iwsp6jzHL._AC_SX679_.jpg";
+export const urlPc = "https://thumb.pccomponentes.com/w-220-220/articles/19/194723/1.jpg";
 
 /** Error URL */
 export const noImageLoad = "https://mlvwiwkbe6jt.i.optimole.com/2tpReKc-WQwfvenK/w:auto/h:auto/q:auto/http://www.verasoul.com/wp-content/uploads/chromerror.jpg";

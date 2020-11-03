@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React  from "react";
 import { FlatList, SafeAreaView, StyleSheet, Text, Image, TouchableOpacity } from "react-native";
 import database from '../database/db.json';
-import { colorList } from '../utils/constants';
+import { colorList, urlPc } from '../utils/constants';
 import { headphone, keyboard, monitor, mouse, noImageLoad, urlHeadphone, urlKeyboard, urlMonitor, urlMouse } from '../utils/constants';
 
 const Item = ({ item, onPress, style }) => (
@@ -37,6 +37,7 @@ const ProductList = ({navigation}) => {
               return noImageLoad
       }
     }
+
     item.urlImage = urlImage();
     return (
       <Item
@@ -52,7 +53,7 @@ const ProductList = ({navigation}) => {
       <Image
         style={styles.image}
         source={{
-            uri: "https://thumb.pccomponentes.com/w-220-220/articles/19/194723/1.jpg"
+            uri: urlPc
         }}
       />
       <FlatList
