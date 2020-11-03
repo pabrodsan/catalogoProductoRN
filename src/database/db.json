@@ -1,0 +1,47 @@
+[
+    {
+      "id": "5fa18ac27fbcb5a29c36e8d6",
+      "index": 0,
+      "price": "$115.45",
+      "brand": "Razer",
+      "name": "Keyboard",
+      "about": "Enim culpa velit Lorem velit adipisicing duis mollit. Cillum sunt do ullamco proident fugiat nostrud tempor aliquip ad aliquip consectetur ut reprehenderit. Quis enim enim aute anim sint aliqua reprehenderit minim aute sunt. Cillum ipsum consequat Lorem culpa irure. Non Lorem quis velit ut occaecat officia qui. Consectetur laboris culpa irure voluptate laborum mollit consequat nostrud sint nisi excepteur sint.\r\n",
+      "stok": 4
+    },
+    {
+      "id": "5fa18ac2e3f663489f512467",
+      "index": 1,
+      "price": "$63.06",
+      "brand": "Logitech",
+      "name": "Headphones",
+      "about": "Culpa proident mollit ut ea dolor qui irure irure commodo ea elit incididunt laboris. Dolor velit cillum sunt enim aliqua. Duis amet aliqua sit nostrud enim quis ea minim sint laboris cupidatat. Amet dolor exercitation in sit do aliqua laboris qui consectetur quis incididunt. Ea culpa aliqua nostrud culpa cillum dolor. Occaecat laborum magna nulla eu anim officia excepteur laboris irure adipisicing. Consectetur exercitation tempor dolor ad consequat nostrud nisi nostrud.\r\n",
+      "stok": 0
+    },
+    {
+      "id": "5fa18ac2c4aa837bc4877fe5",
+      "index": 2,
+      "price": "$80.81",
+      "brand": "Corsair",
+      "name": "Monitor",
+      "about": "Nulla cupidatat dolor deserunt enim culpa. Elit sit nostrud anim qui quis culpa cupidatat dolor. Ex nostrud fugiat proident in laboris consequat laborum minim nisi. Aliquip deserunt nisi dolore reprehenderit adipisicing duis anim incididunt officia cillum veniam in veniam. Aute pariatur ex excepteur incididunt veniam in sint ipsum.\r\n",
+      "stok": 6
+    },
+    {
+      "id": "5fa18ac2e13fba430ce2e50b",
+      "index": 3,
+      "price": "$177.90",
+      "brand": "Corsair",
+      "name": "Headphones",
+      "about": "Sint do culpa in anim cupidatat est nostrud pariatur cillum mollit sunt dolore. Pariatur in in laboris nulla eu culpa eu ullamco exercitation est. Ut eu dolor est fugiat Lorem ad mollit esse.\r\n",
+      "stok": 6
+    },
+    {
+      "id": "5fa18ac26f3a863d6cefeb16",
+      "index": 4,
+      "price": "$84.41",
+      "brand": "Logitech",
+      "name": "Mouse",
+      "about": "Aute dolor magna ad aliquip qui adipisicing proident voluptate. Ut deserunt laboris elit est. Amet esse ad non aliqua esse. Sit velit ipsum do nisi id do. Non mollit irure proident aute dolor do cupidatat consectetur magna tempor ea nisi qui. Id in mollit proident cupidatat cupidatat incididunt do sunt deserunt non.\r\n",
+      "stok": 16
+    }
+  ]
