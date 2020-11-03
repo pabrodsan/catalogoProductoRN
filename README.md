@@ -1,6 +1,6 @@
 # Caso práctico 2. React Native
 
-# Descripción
+## Descripción
 Realizar una aplicación móvil que muestre un catálogo de productos y que al acceder a uno de ellos apareza el detalle.
 
 ## Tecnología usadas
