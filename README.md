@@ -12,11 +12,12 @@ Realizar una aplicación móvil que muestre un catálogo de productos y que al a
 # Despliegue de la app
 
 Para instalar las dependecias.
-~~~~
+
+~~~
 npm install
 ~~~
 
-En un terminal ejecutamos:
+En una terminal ejecutamos:
 
 ~~~
 npm start
