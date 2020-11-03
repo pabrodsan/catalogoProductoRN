@@ -1,47 +1,79 @@
 [
-    {
-      "id": "5fa18ac27fbcb5a29c36e8d6",
-      "index": 0,
-      "price": "$115.45",
-      "brand": "Razer",
-      "name": "Keyboard",
-      "about": "Enim culpa velit Lorem velit adipisicing duis mollit. Cillum sunt do ullamco proident fugiat nostrud tempor aliquip ad aliquip consectetur ut reprehenderit. Quis enim enim aute anim sint aliqua reprehenderit minim aute sunt. Cillum ipsum consequat Lorem culpa irure. Non Lorem quis velit ut occaecat officia qui. Consectetur laboris culpa irure voluptate laborum mollit consequat nostrud sint nisi excepteur sint.\r\n",
-      "stok": 4
-    },
-    {
-      "id": "5fa18ac2e3f663489f512467",
-      "index": 1,
-      "price": "$63.06",
-      "brand": "Logitech",
-      "name": "Headphones",
-      "about": "Culpa proident mollit ut ea dolor qui irure irure commodo ea elit incididunt laboris. Dolor velit cillum sunt enim aliqua. Duis amet aliqua sit nostrud enim quis ea minim sint laboris cupidatat. Amet dolor exercitation in sit do aliqua laboris qui consectetur quis incididunt. Ea culpa aliqua nostrud culpa cillum dolor. Occaecat laborum magna nulla eu anim officia excepteur laboris irure adipisicing. Consectetur exercitation tempor dolor ad consequat nostrud nisi nostrud.\r\n",
-      "stok": 0
-    },
-    {
-      "id": "5fa18ac2c4aa837bc4877fe5",
-      "index": 2,
-      "price": "$80.81",
-      "brand": "Corsair",
-      "name": "Monitor",
-      "about": "Nulla cupidatat dolor deserunt enim culpa. Elit sit nostrud anim qui quis culpa cupidatat dolor. Ex nostrud fugiat proident in laboris consequat laborum minim nisi. Aliquip deserunt nisi dolore reprehenderit adipisicing duis anim incididunt officia cillum veniam in veniam. Aute pariatur ex excepteur incididunt veniam in sint ipsum.\r\n",
-      "stok": 6
-    },
-    {
-      "id": "5fa18ac2e13fba430ce2e50b",
-      "index": 3,
-      "price": "$177.90",
-      "brand": "Corsair",
-      "name": "Headphones",
-      "about": "Sint do culpa in anim cupidatat est nostrud pariatur cillum mollit sunt dolore. Pariatur in in laboris nulla eu culpa eu ullamco exercitation est. Ut eu dolor est fugiat Lorem ad mollit esse.\r\n",
-      "stok": 6
-    },
-    {
-      "id": "5fa18ac26f3a863d6cefeb16",
-      "index": 4,
-      "price": "$84.41",
-      "brand": "Logitech",
-      "name": "Mouse",
-      "about": "Aute dolor magna ad aliquip qui adipisicing proident voluptate. Ut deserunt laboris elit est. Amet esse ad non aliqua esse. Sit velit ipsum do nisi id do. Non mollit irure proident aute dolor do cupidatat consectetur magna tempor ea nisi qui. Id in mollit proident cupidatat cupidatat incididunt do sunt deserunt non.\r\n",
-      "stok": 16
-    }
-  ]
+  {
+    "id": "5fa1ab8251d489284360c3dc",
+    "price": "$129.57",
+    "brand": "Razer",
+    "name": "Mouse",
+    "about": "Esse reprehenderit dolore sunt culpa. Deserunt ut nulla voluptate nisi consectetur et laboris labore ea aliqua. Nulla quis ex proident ex irure exercitation commodo do incididunt excepteur nisi cillum. Duis est in voluptate fugiat do. Ea consectetur non elit laborum ex sint exercitation proident ex.\r\n"
+  },
+  {
+    "id": "5fa1ab820a99e5450f8151fb",
+    "price": "$160.71",
+    "brand": "Corsair",
+    "name": "Monitor",
+    "about": "Esse sit ad adipisicing esse elit. Commodo pariatur deserunt aute veniam sit eu culpa ex exercitation aliquip anim. Aliqua aute excepteur laborum exercitation officia tempor deserunt dolore laborum. Qui irure occaecat velit do aute anim id deserunt ut consectetur nisi sit et. Ullamco magna occaecat duis est adipisicing et anim ex aliqua sunt eu est nisi.\r\n"
+  },
+  {
+    "id": "5fa1ab82d8f673d2824f3757",
+    "price": "$153.20",
+    "brand": "Razer",
+    "name": "Monitor",
+    "about": "Tempor occaecat consectetur aute et do anim voluptate fugiat id in nulla esse aliquip. Amet ex sit ipsum et eiusmod tempor eiusmod et anim cillum velit duis in nostrud. Laboris dolore id commodo amet.\r\n"
+  },
+  {
+    "id": "5fa1ab827674fd4ce1bd4e6d",
+    "price": "$142.40",
+    "brand": "Corsair",
+    "name": "Keyboard",
+    "about": "Incididunt elit Lorem minim ad qui tempor Lorem do. Dolore dolore reprehenderit deserunt officia non incididunt. Id ea ad veniam pariatur sit ad commodo elit voluptate ad ad ex exercitation. Incididunt quis velit exercitation aliqua anim cillum proident consequat. Tempor consectetur sint do enim eu culpa ipsum adipisicing eu qui mollit duis tempor. Magna velit laboris anim consectetur pariatur magna magna velit duis magna aute ipsum mollit. Tempor cupidatat ipsum sunt officia consequat voluptate occaecat magna eu ad.\r\n"
+  },
+  {
+    "id": "5fa1ab826c1af144d5892573",
+    "price": "$143.98",
+    "brand": "Logitech",
+    "name": "Monitor",
+    "about": "Consectetur ipsum fugiat ut qui aliquip non. Reprehenderit voluptate sint commodo pariatur excepteur dolor non aliqua dolor. Voluptate consectetur quis sint non deserunt mollit anim commodo consequat minim id. Sint sit est ea ipsum eiusmod sunt. Eiusmod voluptate elit aliquip commodo labore sunt exercitation irure pariatur sunt aliqua tempor non Lorem.\r\n"
+  },
+  {
+    "id": "5fa1ab821a579b9e0920f289",
+    "price": "$60.30",
+    "brand": "Omen",
+    "name": "Monitor",
+    "about": "Ullamco minim aute incididunt nulla nostrud laboris. Dolor occaecat elit culpa proident nulla cupidatat est. Ullamco exercitation excepteur sit eiusmod mollit esse consequat et.\r\n"
+  },
+  {
+    "id": "5fa1ab82cd615d42b419d514",
+    "price": "$169.10",
+    "brand": "Corsair",
+    "name": "Headphone",
+    "about": "In officia est ullamco quis sit. Nostrud sunt ipsum consequat ex ullamco in tempor tempor amet reprehenderit irure. Sunt cupidatat dolore dolor aute incididunt.\r\n"
+  },
+  {
+    "id": "5fa1ab829219c6dd52d7776c",
+    "price": "$62.98",
+    "brand": "Logitech",
+    "name": "Monitor",
+    "about": "Dolor tempor cupidatat quis occaecat ut esse labore aliqua laboris id velit commodo esse ex. Et irure excepteur in ullamco nulla consectetur dolor aute ad elit cupidatat non. Quis esse nulla nostrud nulla est aute. Id ullamco qui id aute excepteur esse aliquip non aliqua fugiat aute deserunt et cillum. Occaecat fugiat amet fugiat ea.\r\n"
+  },
+  {
+    "id": "5fa1ab82f7108361307b526a",
+    "price": "$125.20",
+    "brand": "Razer",
+    "name": "Headphone",
+    "about": "Pariatur mollit minim Lorem aliquip eu fugiat deserunt labore aliqua irure id sint. Culpa adipisicing velit duis anim quis aute fugiat velit cillum consectetur. Sint laborum sit deserunt nulla Lorem. Culpa aliqua ut non dolore proident aute ea voluptate laborum labore ea ut labore. Reprehenderit aute mollit nisi cupidatat Lorem est enim anim cillum nulla tempor proident ullamco eiusmod.\r\n"
+  },
+  {
+    "id": "5fa1ab82a768f36226f98ef2",
+    "price": "$71.42",
+    "brand": "Omen",
+    "name": "Mouse",
+    "about": "Esse qui fugiat commodo pariatur eiusmod aliquip. Exercitation esse magna occaecat aliquip cillum eiusmod et labore cupidatat quis in sint sunt. Labore adipisicing nulla esse incididunt. Est est ex sit consequat voluptate aliqua ullamco in excepteur minim. Aute sunt incididunt ut sit officia duis velit officia eiusmod aute. Dolor minim ad consectetur dolore. Esse ad Lorem ipsum fugiat.\r\n"
+  },
+  {
+    "id": "5fa1ab828f831fbba4a78b3b",
+    "price": "$168.64",
+    "brand": "Corsair",
+    "name": "Headphone",
+    "about": "Officia et excepteur occaecat aliquip do consequat amet cillum dolor commodo. Et eiusmod proident nisi voluptate cupidatat mollit occaecat anim. Amet sint aliqua adipisicing duis deserunt Lorem enim do elit deserunt reprehenderit sint.\r\n"
+  }
+]

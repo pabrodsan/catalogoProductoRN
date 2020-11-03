@@ -1,9 +1,17 @@
 import React, { useState } from "react";
-import { FlatList, SafeAreaView, StatusBar, StyleSheet, Text, TouchableOpacity } from "react-native";
+import { FlatList, SafeAreaView, StyleSheet, Text, Image, TouchableOpacity } from "react-native";
 import database from '../database/db.json';
+import { colorList } from '../utils/constants';
+import { headphone, keyboard, monitor, mouse, noImageLoad, urlHeadphone, urlKeyboard, urlMonitor, urlMouse } from '../utils/constants';
 
 const Item = ({ item, onPress, style }) => (
   <TouchableOpacity onPress={onPress} style={[styles.item, style]}>
+    <Image
+      style={{ width: 50, height: 50,}}
+      source={{
+          uri: item.urlImage
+      }}
+    />
     <Text key={item.id} style={styles.title}>
         {item.name} {item.brand}
     </Text>
@@ -12,28 +20,45 @@ const Item = ({ item, onPress, style }) => (
 );
 
 const ProductList = ({navigation}) => {
-  const [selectedId, setSelectedId] = useState(null);
 
   const renderItem = ({ item }) => {
-    // const backgroundColor = item.id === selectedId ? "#9caea7" : "#bdd0c9";
 
+    const urlImage = () => {
+      switch (item.name) {
+          case keyboard:
+              return urlKeyboard
+          case headphone:
+              return urlHeadphone
+          case monitor:
+              return urlMonitor
+          case mouse:
+              return urlMouse
+          default:
+              return noImageLoad
+      }
+    }
+    item.urlImage = urlImage();
     return (
       <Item
         item={item}
-        // onPress={() => setSelectedId(item.id)}
-        onPress={() => navigation.navigate('Details', {item})}
-        style={{ backgroundColor: "#bdd0c9" }}
+        onPress={() => navigation.navigate('information', item)}
+        style={{ backgroundColor: colorList }}
       />
     );
   };
 
   return (
     <SafeAreaView style={styles.container}>
+      <Image
+        style={styles.image}
+        source={{
+            uri: "https://thumb.pccomponentes.com/w-220-220/articles/19/194723/1.jpg"
+        }}
+      />
       <FlatList
         data={database}
         renderItem={renderItem}
         keyExtractor={(item) => item.id}
-        extraData={selectedId}
       />
     </SafeAreaView>
   );
@@ -42,9 +67,8 @@ const ProductList = ({navigation}) => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        marginTop: StatusBar.currentHeight || 0,
+        marginTop: 10
     },
-    
     item: {
         flex: 1,
         flexDirection: 'row',
@@ -52,9 +76,15 @@ const styles = StyleSheet.create({
         padding: 20,
         marginVertical: 8,
         marginHorizontal: 16,
+        alignItems: "center"
     },
     title: {
         fontSize: 16,
+    },
+    image: {
+      alignSelf: "center",
+      width: 200,
+      height: 150,
     }
 });
 
